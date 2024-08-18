@@ -1,0 +1,38 @@
+body{
+    font-family: 'Courier New', Courier, sans-serif;
+}
+
+h1{
+    font-weight: bold;
+    background-color: yellow;
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+h3{
+    font-weight: bold;
+    background-color: #2F3C7E;
+    color: #FBEAEB;
+    font-size: 30px;
+}
+
+ul.recipes-list a{
+    background-color: aliceblue;
+    color: rgb(159, 43, 104);
+    font-size: 20px;
+}
+
+img.recipe{
+    height: auto;
+    width:200px;
+    transition: transform 0.3s ease;
+}
+
+img.recipe:hover{
+    transform: scale(1.2);
+}
+
+ul.ingredients li strong{
+    color:  #8AAAE5;
+}
